@@ -1,0 +1,145 @@
+
+.main{
+   display: flex;
+   flex-direction: column;
+   gap: 1.6em;
+   height: 100vh;
+   width: 70%;
+   margin: 0 auto;
+   background-color: #ede9e6;
+}
+.inner_div{
+   display: flex;
+   flex-direction: column;
+   align-items: start;
+   width: 55%;
+   padding: 1em;
+}
+.advice{
+    font-size: 0.9em;
+    color: #96BB7C;
+}
+.heading{
+    font-size: 3em;
+    font-weight: 600;
+}
+.para{
+    font-size: 1em;
+    color: #737373;
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    width: 47vh;
+    min-height: 55vh;
+}
+.img{
+    height: 14em;
+    width: 100%;
+    img{
+        height: 100%;
+        width: 100%;
+        border-radius: 0.2em;
+    }
+}
+.data{
+    background-color: white;
+    min-height: 32vh;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+.type{
+    color: #74d230;
+    font-size: 0.8em;
+    font-weight: 500;
+}
+.topic{
+    color: rgb(0, 0, 0);
+    font-size: 1.1em;
+    font-weight: 600;
+}
+.para{
+    color: #b0adad;
+    font-size: 0.9em;
+    font-weight: 300;
+}
+.price{
+    color:#FFAB71;
+    font-weight: 700;
+}
+.btn{
+    border: 2px solid #96BB7C;
+    font-size: 1em;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2em;
+    width: 58%;
+    padding: 0.4em;
+    color: #96BB7C;
+    &:hover{
+        cursor: pointer;
+        background-color: #74d230;
+        color: white;
+        border-color: #74d230;
+    }
+}
+
+.img{
+   position: relative;
+}
+.sale{
+    background-color: red;
+    padding: 0.1em 0.5em;
+    font-size: 1em;
+    color: white;
+    font-weight: 500;
+    border-radius: 0.3em;
+    position: absolute;
+    top: 8px;
+    left: 8px;
+}
+.sign{
+    display: flex;
+    gap: 1em;
+    /* border: 1px solid black; */
+    /* width: 40%; */
+    position: absolute;
+    bottom: 21px;
+    left: 4em;
+    span{
+        border: 1px solid white;
+        background-color: white;
+        border-radius: 50%;
+        height: 2.7em;
+        width: 2.7em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.rating{
+    display: flex;
+    justify-content: space-between;   
+    border: none;
+    span{
+        background-color: #2D4059;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0.1em;
+        padding: 0.3em 0.5em;
+        border-radius: 2em;
+        font-size: 0.8em;
+    }
+}

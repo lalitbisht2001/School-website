@@ -1,0 +1,69 @@
+
+.main{
+    height: 100vh;
+    width: 70%;
+    margin: 0 auto;
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+.heading{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin: 2em 2em;
+    .para1{
+        font-size: 2.5em;
+        font-weight: 600;
+    }
+    .para2{
+        font-size: 1em;
+        color: #737373;
+    }
+}
+.box{
+   width: 100%;
+   height: 56vh;
+   margin: 0 auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 2.8em;
+   /* background-color: yellow; */
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid black; */
+    border-radius: 0.8em ;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    img{
+        height: 30vh;
+        border-radius: 0.8em 0.8em 0 0;
+    }
+    .detail{
+        height: 15vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 0.5em;
+        align-items: center;
+        .name{
+            font-size: 1.1em;
+            color: black;
+            font-weight: 600;
+        }
+        .profe{
+            font-size: 0.9em;
+            color: #737373;
+        }
+        .logo{
+            display: flex;
+            gap: 1.5em;
+        }
+    }
+}

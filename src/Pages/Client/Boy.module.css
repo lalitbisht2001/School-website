@@ -1,0 +1,42 @@
+
+.main{
+   height: 100vh;
+   width: 77%;
+   margin: 0 auto;
+   /* background-color: aqua; */
+   display: flex;
+   gap: 10%;
+}
+.heading{
+    height: 90vh;
+    width: 40%;
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: start;
+    justify-content: center;
+    padding-left: 4em;
+}
+.line{
+    height: 1vh;
+    width: 20vh;
+    background-color: red;
+    border-radius: 0.4em;
+}
+.img{
+    width: 50%;
+    height: 80vh;
+    margin: auto auto;
+    img{
+        height: 70vh;
+    }
+}
+.heading1{
+    font-size: 3.2em;
+    font-weight: 700;
+}
+.para{
+    font-size: 1em;
+    color:#737373;
+}
